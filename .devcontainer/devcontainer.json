@@ -3,5 +3,14 @@
 	"dockerComposeFile": "docker-compose.yml",
 	"workspaceFolder": "/workspace",
 	"service": "devcontainer",
-	"shutdownAction": "stopCompose"
+	"shutdownAction": "stopCompose",
+	"forwardPorts": [
+		5173
+	],
+	"features": {
+		"ghcr.io/devcontainers/features/node:1": {
+			"version": "23",
+			"installYarnUsingApt": false
+		}
+	}
 }
