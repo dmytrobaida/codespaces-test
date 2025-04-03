@@ -1,0 +1,7 @@
+{
+	"name": "codespaces-test",
+	"dockerComposeFile": "docker-compose.yml",
+	"workspaceFolder": "/workspace",
+	"service": "devcontainer",
+	"shutdownAction": "stopCompose"
+}
