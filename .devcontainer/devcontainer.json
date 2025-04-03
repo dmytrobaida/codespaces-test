@@ -8,10 +8,21 @@
     5173,
     3000
   ],
+  "containerEnv": {
+    "DATABASE_URL": "postgresql://user:password@localhost:5432/testdb?schema=public"
+  },
   "features": {
     "ghcr.io/devcontainers/features/node:1": {
       "version": "23",
       "installYarnUsingApt": false
+    }
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "Prisma.prisma",
+        "esbenp.prettier-vscode"
+      ]
     }
   }
 }

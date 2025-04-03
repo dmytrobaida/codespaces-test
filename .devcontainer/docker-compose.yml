@@ -6,6 +6,7 @@ services:
     volumes:
       - ../..:/workspace:cached
     command: sleep infinity
+    network_mode: service:postgres
 
   postgres:
     image: postgres:15
