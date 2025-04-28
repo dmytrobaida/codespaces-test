@@ -4,10 +4,6 @@
   "workspaceFolder": "/workspace",
   "service": "devcontainer",
   "shutdownAction": "stopCompose",
-  "forwardPorts": [
-    5173,
-    3000
-  ],
   "containerEnv": {
     "DATABASE_URL": "postgresql://user:password@localhost:5432/testdb?schema=public"
   },
